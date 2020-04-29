@@ -1,9 +1,6 @@
 $color1: black;
 $color2: Orange;
 $color3: rgba(0, 0, 0, 0.5);
-body {
-    overflow-x: hidden;
-}
 
 #navbar {
     padding: 1rem;
@@ -26,6 +23,7 @@ body {
 
     .nav-list {
         position: fixed;
+        z-index: 2;
         right: 0px;
         top: calc(3.5rem + 1px);
         width: 50%;
