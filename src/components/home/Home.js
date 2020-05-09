@@ -9,19 +9,25 @@ function Home() {
             <h1>Featured Projects</h1>
 
             <div className="grid">
+                
                 <div className="project one">
                     <img className="project-img" src={quizmasterDesktop} alt=""/>
-                    <ul className="project-tags">
-                        <li>React</li>
-                        <li>JSX</li>
-                        <li>SASS</li>
-                        <li>Firebase</li>
-                    </ul>
-                    
+                    <div className="project-info">
+                        <h2>Quizmaster</h2>
+                        <p>React JS, SASS, Firebase</p>
+                        <a href="http://quizmaster.gustafohlstrom.se/">Learn More</a>
+                    </div>
                 </div>
+
                 <div className="project two">
                     <img className="project-img" src={quizmasterDesktop} alt=""/>
+                    <div className="project-info">
+                        <h2>Quizmaster</h2>
+                        <p>React JS, SASS, Firebase</p>
+                        <a href="http://quizmaster.gustafohlstrom.se/">Learn More</a>
+                    </div>
                 </div>
+
             </div>
         </div>
     )

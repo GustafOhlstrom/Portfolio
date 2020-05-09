@@ -2,7 +2,7 @@ $color1: black;
 $color2: Orange;
 $color3: rgba(0, 0, 0, 0.5);
 
-#home {
+#projects {
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
@@ -58,10 +58,10 @@ $color3: rgba(0, 0, 0, 0.5);
 
                 a {
                     display: inline-block;
-                    width: 150px;
+                    width: 125px;
                     color: $color2;
                     background-color: white;
-                    padding: 1rem;
+                    padding: 0.75rem;
                     margin: 0 auto;
                     border: 2px solid $color2;
                     border-radius: 2px;
@@ -98,7 +98,7 @@ $color3: rgba(0, 0, 0, 0.5);
 
     @media screen and (min-width: 768px) { 
         .grid {
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(3, 1fr);
         }
     }
 

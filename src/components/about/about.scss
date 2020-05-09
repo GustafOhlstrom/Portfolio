@@ -1,0 +1,55 @@
+$color1: black;
+$color2: Orange;
+$color3: rgba(0, 0, 0, 0.5);
+
+#about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+
+    color: white;
+
+    h1 {
+        margin: 3rem 0 0.25rem 0;
+    }
+
+    p {
+        margin-bottom: 3rem;
+    }
+
+    a {
+        display: inline-block;
+        width: 150px;
+        color: white;
+        background-color: rgba(255, 166, 0, 0.75);
+        padding: 1rem;
+        border: 2px solid $color2;
+        border-radius: 2px;
+        text-decoration: none;
+
+        &:hover {
+            color: white;
+            background-color: $color2;
+        }
+    }
+    
+    .skills {
+        margin-bottom: 3rem;
+        
+
+        .icons {
+            margin: 0 1rem;
+            max-width: 4rem;
+        }
+          
+        .icons path {
+            // fill: $color2;
+        }
+
+        .react path {
+            fill: rgb(0, 188, 212);
+        }
+    }
+
+}

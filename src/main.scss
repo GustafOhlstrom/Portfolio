@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
 
+$bcolor1: rgb(37, 37, 37);
+
 * {
 	margin: 0;
 	padding: 0;
@@ -8,4 +10,5 @@
 
 body {
 	font-family: 'Roboto', 'Montserrat', sans-serif;
+	background-color: $bcolor1;
 }

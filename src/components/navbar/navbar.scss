@@ -2,16 +2,20 @@ $color1: black;
 $color2: Orange;
 $color3: rgba(0, 0, 0, 0.5);
 
+$bcolor1: rgb(40, 40, 40);
+
 #navbar {
     padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     letter-spacing: 0.15rem;
-    border-bottom: 1px solid $color1;
+    border-bottom: 1px solid rgba(255, 166, 0, 0.25);;
+
+    background-color: $bcolor1;
     
     .logo {
-        color: $color1;
+        color: white;
         font-size: 1.5rem;
         line-height: 1.5rem;
         font-weight: 700;
@@ -36,7 +40,7 @@ $color3: rgba(0, 0, 0, 0.5);
         transition: transform 0.3s ease-in;
 
         .nav-link {
-            color: $color1;
+            color: white;
             font-size: 1rem;
             line-height: 1.5rem;
             font-weight: 600;
@@ -85,7 +89,7 @@ $color3: rgba(0, 0, 0, 0.5);
         .nav-list {
             position: initial; 
             display: flex;
-            background-color: white;
+            background-color: $bcolor1;
             width: auto;
             height: auto;
             transform: translateX(0%);
