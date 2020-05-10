@@ -2,25 +2,22 @@ $color1: black;
 $color2: Orange;
 $color3: rgba(0, 0, 0, 0.5);
 
-$bcolor1: rgb(40, 40, 40);
+$bcolor1: rgb(37, 37, 37);
 
 #navbar {
-    padding: 1rem;
+    padding: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     letter-spacing: 0.15rem;
-    border-bottom: 1px solid rgba(255, 166, 0, 0.25);;
+    // border-bottom: 1px solid rgba(255, 166, 0, 0.25);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
 
     background-color: $bcolor1;
     
     .logo {
-        color: white;
-        font-size: 1.5rem;
-        line-height: 1.5rem;
-        font-weight: 700;
-        text-decoration: none;
-        text-transform: uppercase;
+        width: 2.5rem;
+        margin-left: 1rem;
     }
 
     // Hamburger icon

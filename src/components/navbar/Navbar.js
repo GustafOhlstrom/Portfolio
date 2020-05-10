@@ -1,4 +1,5 @@
 import './navbar.scss'
+import logo from '../../assets/images/logo.svg'
 import React, { Component } from 'react'
 import { Link, NavLink } from "react-router-dom";
 
@@ -12,8 +13,8 @@ class Navbar extends Component {
     render() {
         return (
             <nav id="navbar">
-                <Link exact className="logo" to="/">
-                    Gustaf Ohlström
+                <Link exact to="/">
+                    <img className="logo" src={logo} title="Logo" alt="Logo"/>
                 </Link>
                 <ul className="nav-list">
                     <li>
