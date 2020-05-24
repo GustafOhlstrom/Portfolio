@@ -1,7 +1,6 @@
 import './navbar.scss'
 import logo from '../../assets/images/logo.svg'
 import React, { Component } from 'react'
-import { Link, NavLink } from "react-router-dom";
 
 class Navbar extends Component {
 
@@ -13,24 +12,24 @@ class Navbar extends Component {
     render() {
         return (
             <nav id="navbar">
-                <Link exact to="/">
+                <a href="/" className="nav-link">
                     <img className="logo" src={logo} title="Logo" alt="Logo"/>
-                </Link>
+                </a>
                 <ul className="nav-list">
                     <li>
-                        <NavLink exact className="nav-link" to="/">
+                        <a href="/" className="nav-link">
                             Home
-                        </NavLink>
+                        </a>
                     </li>
                     <li>
-                        <NavLink className="nav-link" to="/Projects">
+                        <a href="#projects" className="nav-link">
                             Projects
-                        </NavLink>
+                        </a>
                     </li>
                     <li>
-                        <NavLink className="nav-link" to="/About">
-                            About
-                        </NavLink>
+                        <a href="#contact" className="nav-link">
+                            Contact
+                        </a>
                     </li>
                 </ul>
                 <div 

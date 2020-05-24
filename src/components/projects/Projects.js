@@ -1,41 +1,57 @@
 import './projects.scss'
-import quizmasterMobile from '../../assets/images/quizmasterMobile.PNG'
-import quizmasterDesktop from '../../assets/images/quizmasterDesktop4.PNG'
+import quizmasterDesktop from '../../assets/images/test2.png'
+import test3 from '../../assets/images/test3.png'
 import React from 'react'
 
 function Projects() {
     return (
-        <div id="projects">
-            <h1>Projects</h1>
+        <section id="projects">
+            <h3>Projects</h3>
 
             <div className="grid">
-                <div className="project one">
+                
+                <a className="project" href="http://quizmaster.gustafohlstrom.se/">
                     <img className="project-img" src={quizmasterDesktop} alt=""/>
                     <div className="project-info">
                         <h2>Quizmaster</h2>
                         <p>React JS, SASS, Firebase</p>
-                        <a href="http://quizmaster.gustafohlstrom.se/">Learn More</a>
                     </div>
-                </div>
-                <div className="project two">
-                    <img className="project-img" src={quizmasterDesktop} alt=""/>
-                    <div className="project-info">
-                        <h2>Quizmaster</h2>
-                        <p>React JS, SASS, Firebase</p>
-                        <a href="http://quizmaster.gustafohlstrom.se/">Learn More</a>
-                    </div>
-                </div>
-                <div className="project two">
-                    <img className="project-img" src={quizmasterDesktop} alt=""/>
-                    <div className="project-info">
-                        <h2>Quizmaster</h2>
-                        <p>React JS, SASS, Firebase</p>
-                        <a href="http://quizmaster.gustafohlstrom.se/">Learn More</a>
-                    </div>
-                </div>
-            </div>
+                </a>
 
-        </div>
+                <a className="project" href="http://typingspeed.gustafohlstrom.se/">
+                    <img className="project-img" src={test3} alt=""/>
+                    <div className="project-info">
+                        <h2>Typing Speed</h2>
+                        <p>React JS, SASS</p>
+                    </div>
+                </a>
+
+                <a className="project" href="http://quizmaster.gustafohlstrom.se/">
+                    <img className="project-img" src={quizmasterDesktop} alt=""/>
+                    <div className="project-info">
+                        <h2>Quizmaster</h2>
+                        <p>React JS, SASS, Firebase</p>
+                    </div>
+                </a>
+
+                <a className="project" href="http://typingspeed.gustafohlstrom.se/">
+                    <img className="project-img" src={test3} alt=""/>
+                    <div className="project-info">
+                        <h2>Typing Speed</h2>
+                        <p>React JS, SASS</p>
+                    </div>
+                </a>
+
+                <a className="project" href="http://quizmaster.gustafohlstrom.se/">
+                    <img className="project-img" src={quizmasterDesktop} alt=""/>
+                    <div className="project-info">
+                        <h2>Quizmaster</h2>
+                        <p>React JS, SASS, Firebase</p>
+                    </div>
+                </a>
+            
+            </div>
+        </section>
     )
 }
 
