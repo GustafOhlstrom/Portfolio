@@ -1,9 +1,4 @@
 import './home.scss'
-import quizmasterMobile from '../../assets/images/quizmasterMobile.PNG'
-import quizmasterDesktop from '../../assets/images/test2.png'
-import test from '../../assets/images/test2.png'
-import logoOutline from '../../assets/images/logo-outline.svg'
-import logoText from '../../assets/images/logo-text.svg'
 import React from 'react'
 
 function Home() {

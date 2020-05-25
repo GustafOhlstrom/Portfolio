@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
-
-$bcolor1: rgb(37, 37, 37);
-$color1: black;
-$color2: Orange;
-$color3: rgba(0, 0, 0, 0.5);
+@import './variables.scss';
 
 * {
 	margin: 0;
