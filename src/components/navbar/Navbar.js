@@ -1,6 +1,7 @@
 import './navbar.scss'
 import logo from '../../assets/images/logo.svg'
 import React, { Component } from 'react'
+import { Link } from "react-scroll";
 
 class Navbar extends Component {
 
@@ -17,19 +18,40 @@ class Navbar extends Component {
                 </a>
                 <ul className="nav-list">
                     <li>
-                        <a href="/" className="nav-link">
+                        <Link
+                            className="nav-link"
+                            activeClass="active"
+                            to="home"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                        >
                             Home
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#projects" className="nav-link">
+                        <Link
+                            className="nav-link"
+                            activeClass="active"
+                            to="projects"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                        >
                             Projects
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#contact" className="nav-link">
+                        <Link
+                            className="nav-link"
+                            activeClass="active"
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                        >
                             Contact
-                        </a>
+                        </Link>
                     </li>
                 </ul>
                 <div 

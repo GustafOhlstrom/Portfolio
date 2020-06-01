@@ -3,45 +3,28 @@ $color2: Orange;
 $color3: rgba(0, 0, 0, 0.5);
 
 #home {
-    .flex-align {
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    min-height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    h1 {
+        margin-bottom: 0.25rem;
+        font-size: 2.5rem;
+        color: white;
     }
 
-    .logo-text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 80px;
-        height: 80px;
-        margin:-40px 0 0 -40px;
-        z-index: 1;
-    } 
-
-    .logo-outline {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 140px;
-        height: 140px;
-        margin:-70px 0 0 -70px;
-        -webkit-animation:spin 10s linear infinite;
-        -moz-animation:spin 10s linear infinite;
-        animation:spin 10s linear infinite;
-    } 
-
-    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+    h2 {
+        font-size: 1.25rem;
+        margin-bottom: 3rem;
+        color: $color2;
+    }
 
     .skills {
-        margin-bottom: 6rem;
         text-align: center;
 
         .icons {
-            margin: 0 1rem;
+            margin: 0 1rem 0.5rem 1rem;
             max-width: 4rem;
         }
           
@@ -54,13 +37,13 @@ $color3: rgba(0, 0, 0, 0.5);
         }
     }
 
-    
-
-
     @media screen and (min-width: 768px) { 
-        .grid {
-            grid-template-columns: repeat(3, 1fr);
+        h1 {
+            font-size: 3rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
         }
     }
-
 }

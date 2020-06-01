@@ -1,6 +1,11 @@
 @import '../../variables.scss';
 
 #contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     h3 {
         margin-bottom: 1rem;
     }
@@ -9,9 +14,9 @@
         color: $color2;
         margin-bottom: 3rem;
     }
-
+    
     a {
-        display: inline-block;
+        margin: 0 auto;
         width: 150px;
         color: $color2;
         padding: 1rem;
