@@ -1,5 +1,5 @@
 import './projects.scss'
-import quizmaster from '../../assets/images/quizmaster.png'
+import quizes from '../../assets/images/quizes.png'
 import typingSpeed from '../../assets/images/typing-speed.png'
 import React from 'react'
 
@@ -10,10 +10,10 @@ function Projects() {
 
             <div className="grid">
                 
-                <a className="project" href="http://quizmaster.gustafohlstrom.se/">
-                    <img className="project-img" src={quizmaster} alt=""/>
+                <a className="project" href="http://quizes.gustafohlstrom.se/">
+                    <img className="project-img" src={quizes} alt=""/>
                     <div className="project-info">
-                        <h2>Quizmaster</h2>
+                        <h2>Quizes</h2>
                         <p>React JS, SASS, Firebase</p>
                     </div>
                 </a>
